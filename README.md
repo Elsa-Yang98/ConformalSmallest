@@ -4,7 +4,7 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of ConformalSmallest is to ...
+## This package implements two  selection  algorithms  for  conformal  prediction  regions  to  obtain  the smallest prediction set in practice; these are called “efficiency first” and “validity first” conformal prediction algorithms, EFCP and VFCP for short. For details please refer to [our paper](https://arxiv.org/abs/2104.13871).
 
 ## Installation
 
@@ -28,9 +28,6 @@ library(ConformalSmallest)
 ## basic example code
 ```
 
-# ConformalSmallest
-
-## This package implements two  selection  algorithms  for  conformal  prediction  regions  to  obtain  the smallest prediction set in practice; these are called “efficiency first” and “validity first” conformal prediction algorithms, EFCP and VFCP for short. For details please refer to [our paper](https://arxiv.org/abs/2104.13871).
 
 ## Example 1: Tuning free ridge regression with conformal prediction
 ```r
