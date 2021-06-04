@@ -22,8 +22,8 @@ test_that("quantile for efcp is valid", {
   eps=rt(n,df)*(1+sqrt(X[,1]^2+X[,2]^2))
   Y=X%*%beta+eps
 
-  expect_equal(length(vfcp.fun(X,Y,X0)$up),nrow(X0))
-  expect_equal(length(efcp.fun(X,Y,X0)$up),nrow(X0))
+  expect_equal(length(vfcp_ridge(X,Y,X0)$up),nrow(X0))
+  expect_equal(length(efcp_ridge(X,Y,X0)$up),nrow(X0))
 
 })
 
