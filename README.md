@@ -30,7 +30,7 @@ library(ConformalSmallest)
 
 # ConformalSmallest
 
-## This package implements two  selection  algorithms  for  conformal  prediction  regions  to  obtain  the smallest prediction set in practice; these are called “efficiency first” and “validity first” conformal prediction algorithms, EFCP and VFCP for short. For details please refer to [our paper].(https://arxiv.org/abs/2104.13871).
+## This package implements two  selection  algorithms  for  conformal  prediction  regions  to  obtain  the smallest prediction set in practice; these are called “efficiency first” and “validity first” conformal prediction algorithms, EFCP and VFCP for short. For details please refer to [our paper](https://arxiv.org/abs/2104.13871).
 
 ## Example 1: Tuning free ridge regression with conformal prediction
 ```r
@@ -146,7 +146,7 @@ save(dim,len.param, len.naive, len.vfcp, len.star, len.cv5, len.efcp, file = "le
 
 
 ## Example 2: Tuning free conformal quantile regression with random forest
-This output the right panal of Figure 1 in [our paper].
+This output the right panal of Figure 1 in [our paper](https://arxiv.org/abs/2104.13871).
 ```r
 df <- 3
 d <- 3
