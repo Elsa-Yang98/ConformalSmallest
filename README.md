@@ -16,7 +16,7 @@ install.packages("ConformalSmallest")
 
 Or directly from github
 ``` r
-devtools::install_github("<your_username>/ConformalSmallest")
+devtools::install_github("Elsa-Yang98/ConformalSmallest")
 ```
 
 ## Example
