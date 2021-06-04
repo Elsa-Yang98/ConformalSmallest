@@ -69,14 +69,14 @@ for(i in 1:nrep){
     len.param[i,r] <- mean(out.param.up[,r]-out.param.lo[,r]) 
     
     
-    out.efcp <- efcp.fun(X,Y,X0,lambda=lambda_seq,alpha=alpha)
+    out.efcp <- efcp_ridge(X,Y,X0,lambda=lambda_seq,alpha=alpha)
     out.efcp.up[,r] <- out.efcp$up
     out.efcp.lo[,r] <- out.efcp$lo    
     cov.efcp[i,r] <- mean(out.efcp.lo[,r] <= Y0 & Y0 <= out.efcp.up[,r]) 
     len.efcp[i,r] <- mean(out.efcp.up[,r]-out.efcp.lo[,r]) 
     
     
-    out.vfcp <- vfcp.fun(X,Y,X0,lambda=lambda_seq,alpha=alpha)
+    out.vfcp <- vfcp_ridge(X,Y,X0,lambda=lambda_seq,alpha=alpha)
     out.vfcp.up[,r] <- out.vfcp$up
     out.vfcp.lo[,r] <- out.vfcp$lo    
     cov.vfcp[i,r] <- mean(out.vfcp.lo[,r] <= Y0 & Y0 <= out.vfcp.up[,r]) 
