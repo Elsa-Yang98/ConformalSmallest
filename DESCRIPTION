@@ -8,6 +8,7 @@ Authors@R:
            email = "yachong@wharton.upenn.edu",
            comment = c(ORCID = "YOUR-ORCID-ID"))
 Description: An implementation of Efficiency first conformal prediction (EFCP) and validity first conformal prediction (VFCP) that demonstrates both coverage and width.
+URL: https://github.com/Elsa-Yang98/ConformalSmallest
 Imports:
     glmnet,
     mvtnorm,
