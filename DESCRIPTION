@@ -1,5 +1,5 @@
 Package: ConformalSmallest
-Title: Tuning free method to give the smallest conformal prediction interval
+Title: Tuning Free Method to Give the Smallest Conformal Prediction Interval
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Yachong",
@@ -21,7 +21,12 @@ LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
 Suggests: 
-    testthat (>= 3.0.0)
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown,
+    ggplot2,
+    repr
 Config/testthat/edition: 3
 Depends: 
-    R (>= 2.10)
+    R (>= 3.5.0)
+VignetteBuilder: knitr
