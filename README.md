@@ -4,11 +4,12 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-## This package implements two  selection  algorithms  for  conformal  prediction  regions  to  obtain  the smallest prediction set in practice; these are called “efficiency first” and “validity first” conformal prediction algorithms, EFCP and VFCP for short. For details please refer to [our paper](https://arxiv.org/abs/2104.13871).
+This package implements two  selection  algorithms  for  conformal  prediction  regions  to  obtain  the smallest prediction set in practice; these are called “efficiency first” and “validity first” conformal prediction algorithms, EFCP and VFCP for short. For details please refer to [our paper](https://arxiv.org/abs/2104.13871).
 
 ## Installation
 
 You can install the released version of ConformalSmallest from [CRAN](https://CRAN.R-project.org) with:
+
 
 ``` r
 install.packages("ConformalSmallest")
@@ -18,6 +19,9 @@ Or directly from github
 ``` r
 devtools::install_github("Elsa-Yang98/ConformalSmallest")
 ```
+
+## Vignettes
+Please refer to the vignettes for two examples on how to apply EFCP and VFCP to tuning-free ridge regression and conformal quantile regression using the package and on how to interpret the results.
 
 ## Example
 
